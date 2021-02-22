@@ -11,6 +11,7 @@ import UIKit
 /// Swipe animation conforming to `UIViewControllerAnimatedTransitioning`
 /// Can be replaced by any other class confirming to `UIViewControllerTransitioning`
 /// on your `SwipeableTabBarController` subclass.
+@available(iOS 10.0, *)
 @objc(SwipeTransitionAnimator)
 class SwipeTransitionAnimator: NSObject, SwipeTransitioningProtocol {
 
