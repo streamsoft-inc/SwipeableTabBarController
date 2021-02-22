@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 public extension UIViewController { 
     func setTabBarSwipe(enabled: Bool) {
         if let swipeTabBarController = tabBarController as? SwipeableTabBarController {

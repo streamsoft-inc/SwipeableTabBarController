@@ -152,6 +152,7 @@ open class SwipeableTabBarController: UITabBarController {
 }
 
 // MARK: - UITabBarControllerDelegate
+@available(iOS 10.0, *)
 extension SwipeableTabBarController: UITabBarControllerDelegate {
 
     open func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
