@@ -11,6 +11,7 @@ import UIKit
 /// `UITabBarController` subclass with a `selectedViewController` property observer,
 /// `SwipeInteractor` that handles the swiping between tabs gesture, and a `SwipeTransitioningProtocol`
 /// that determines the animation to be added. Use it or subclass it.
+@available(iOS 10.0, *)
 @objc(SwipeableTabBarController)
 open class SwipeableTabBarController: UITabBarController {
 
